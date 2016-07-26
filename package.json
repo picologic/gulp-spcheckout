@@ -2,7 +2,7 @@
   "name": "gulp-spcheckout",
   "version": "0.0.1",
   "description": "Gulp plugin for checking out files in SharePoint Online",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/picologic/gulp-spcheckout/issues"
   },
-  "homepage": "https://github.com/picologic/gulp-spcheckout#readme"
+  "homepage": "https://github.com/picologic/gulp-spcheckout#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "gulp-util": "^3.0.7",
+    "spcheckout": "git+https://git@github.com/picologic/spcheckout.git",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
